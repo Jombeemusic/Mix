@@ -115,9 +115,24 @@ body {
 	background-color: #000;
 }*/
 
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1918px;
+	width: 100%;
+	position: relative;
+	height: auto;
+	margin: o auto;
+	padding: 0 14px;
+	z-index: 1;
+}
 .wrapper {
+	display: flex;
+	flex-direction: column;
 	max-width: 1680px;
-	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	z-index: 1;
 }
 
 .header__wrapper {
@@ -145,7 +160,7 @@ body {
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-size: 33px;
-	/*color: #FFFFFF;*/
+	color: #AD03FD;
 	text-decoration: none;
 }
 
@@ -164,7 +179,8 @@ body {
 /* Intro styles stert */
 
 .intro {
-	height: 100vh;
+	height: 970px;
+	width: 1918px;
 	background: url(../images/skachenie/intro-background.jpg) no-repeat center;
 	background-size: cover;
 	padding-top: 171px;
@@ -188,5 +204,251 @@ body {
 	color: #FFFFFF;
 }
 
+.intro__subtitle {
+	color: #FFFFFF;
+	font-size: 35px;
+	line-height: 145%;
+	max-width: 450px;
+	margin-bottom: 102px;
+}
+
+.intro__button {
+	width: 315px;
+	height: 80px;
+	color: #302727;
+	padding: 24px 60px;
+	background-color: #FFFFFF;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	border-radius: 40px;
+	cursor: pointer;
+	/*margin-bottom: 346px;*/
+}
+
+.intro__button:hover {
+	background-color: #dee0e0;
+}
+
 
 /* Intro styles end */
+
+.about__us__h {
+	margin-bottom: 57px;
+}
+
+.caption {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	text-align: center;
+	line-height: 130px;
+ }
+
+
+/*About us styles start*/
+
+.about__us__titles {
+	display: flex;
+}
+
+.about__us__title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 50px;
+}
+
+.description__h {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 50px;
+	margin-left: 289px;
+}
+
+.description {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 50px;
+	color: #000000;
+	max-width: 780px;
+	margin-bottom: 85px;
+}
+
+.description__we {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 50px;
+	color: #000000;
+	max-width:558px;
+	margin-left: 289px;
+}
+
+.about__us__photo {
+	display: flex;
+	justify-content: space-between;
+	min-width: 1662px;
+	margin-bottom: 130px;
+}
+
+/*About us styles end*/
+
+
+
+/*Prices styles start*/
+.price__h {
+	margin-bottom: 101px;
+}
+
+.price__one {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 48px;
+	color: #FFFFFF;
+}
+
+.price__two {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 48px;
+	color: #FFFFFF;
+	margin-bottom: 130px;
+}
+
+.price__img {
+	margin-right: 150px;
+	margin-bottom: 140px;
+}
+
+.rec__price {
+	position: absolute;
+	width: 158px;
+	height: 48px;
+	left: 300px;
+	top: 2900px;
+}
+
+.mix__price {
+	position: absolute;
+	width: 140px;
+	height: 48px;
+	left: 830px;
+	top: 2900px;
+}
+
+.arrangement__price {
+	position: absolute;
+	width: 151px;
+	height: 48px;
+	left: 1330px;
+	top: 2900px;
+}
+
+.promo__price {
+	position: absolute;
+	width: 137px;
+	height: 48px;
+	left: 310px;
+	top: 3350px;
+}
+
+.key__song__price {
+	position: absolute;
+	width: 161px;
+	height: 48px;
+	left: 820px;
+	top: 3350px;
+}
+
+.distribution__price {
+	position: absolute;
+	width: 140px;
+	height: 48px;
+	left: 1330px;
+	top: 3350px;
+}
+
+/*Prices styles end*/
+
+
+
+/*Form styles start*/
+
+.form__all__h {
+	position: relative;
+	width: 651.71px;
+	height: 77px;
+	left: 0px;
+	top: 0px;
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 77px;
+	margin-bottom: 38px;
+}
+
+.form {
+	display: flex;
+	margin-left: 998px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 145%;
+	letter-spacing: 0.13em;
+}
+
+.form__input {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.form__group {
+	position: relative;
+	margin-bottom: 30px;
+	margin-bottom: 40px;
+}
+
+.form__label {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	color: #302727;
+	transition: 0.3s;
+}
+
+.form__input {
+	width: 100%;
+	padding: 0 0 10px 0;
+	border-radius: 40px;
+	background-color: transparent;
+	outline: none;
+	transition: 0.3s;	
+}
+
+.form__input:focus {
+	border-bottom: 1px solid #302727;
+}
+
+
+/*Form styles end*/
